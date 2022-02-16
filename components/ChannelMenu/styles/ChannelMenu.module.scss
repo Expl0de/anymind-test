@@ -1,0 +1,34 @@
+.container{ 
+    padding: 10px;
+    border-top: 1px solid #e6ecf3;
+}
+.channelListWrapper{
+    display: flex;
+    flex-direction: column;
+    .channelLabelContainer{
+        color: #000;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 0 5px;
+        margin-bottom: 10px;
+    }
+    .channelListContainer{
+        display: flex;
+        flex-direction: column;
+        .channelButton{
+            border: 0;
+            font-size: 1.1rem;
+            margin: 0;
+            text-align: left;
+            color: #000;
+            height: 50px;
+            padding: 10px 5px;
+            &:hover{
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+            &.active{
+                background-color: #FFF;
+            }
+        }
+    }
+}
