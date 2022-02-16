@@ -1,3 +1,3 @@
 export function getAvartarUrl (name: String): string {
-    return `https://joeschmoe.io/api/v1/${name.toLocaleLowerCase()}`
+    return `https://source.boringavatars.com/beam/${name.toLocaleLowerCase()}`
 }
